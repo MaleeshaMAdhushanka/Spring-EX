@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/bean/TestBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/bean/SpringBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/bean/SpringBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/AppInitializer$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/AppInitializer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,9 @@
   "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2sTX7dLXGS1H8P3nioLVZ8C7xxA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -97,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738480373757</updated>
-      <workItem from="1738480374972" duration="1709000" />
+      <workItem from="1738480374972" duration="3106000" />
     </task>
     <servers />
   </component>
