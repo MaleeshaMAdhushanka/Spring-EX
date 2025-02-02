@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="" />
+    <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/bean/SpringBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/bean/SpringBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/AppInitializer.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +23,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MaleeshaMAdhushanka"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MaleeshaMAdhushanka/Spring-EX.git",
+    "accountId": "4cdd760d-2b60-48d1-8fa2-e13a1807f79b"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -29,6 +50,7 @@
   "keyToString": {
     "Application.AppInitializer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "01__Spring__core",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -75,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738480373757</updated>
-      <workItem from="1738480374972" duration="888000" />
+      <workItem from="1738480374972" duration="1709000" />
     </task>
     <servers />
   </component>

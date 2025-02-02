@@ -1,5 +1,6 @@
 package lk.ecommerce;
 
+import lk.ecommerce.bean.SpringBean;
 import lk.ecommerce.config.AppConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -10,6 +11,22 @@ public class AppInitializer {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
         context.register(AppConfig.class);
         context.refresh();
-        context.close();
+
+        SpringBean bean = context.getBean(SpringBean.class);
+        System.out.println(bean);
+
+        bean.sayHello();
+
+        //jvm eka shutdown weddi thamai context eka close wenne
+
+        Runtime.getRuntime().addShutdownHook(new Thread(){
+            @Override
+            public void run() {
+                System.out.println("Shutting down...");
+                context.close();
+            }
+        });
+
+//        context.close();
     }
 }
