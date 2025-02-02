@@ -1,5 +1,6 @@
 package lk.ecommerce;
 
+import lk.ecommerce.bean.MyConnection;
 import lk.ecommerce.bean.SpringBean;
 import lk.ecommerce.bean.TestBean1;
 import lk.ecommerce.bean.TestBean2;
@@ -29,6 +30,19 @@ public class AppInitializer {
         //bean eke componet ekata nama dila
         TestBean2 testBean2 = context.getBean("testBean2", TestBean2.class);
         System.out.println(testBean2);
+
+        MyConnection myConnection = context.getBean(MyConnection.class);
+        System.out.println(myConnection);
+
+       MyConnection reference1 = context.getBean(MyConnection.class);
+        System.out.println(reference1);
+
+        MyConnection reference2 = context.getBean(MyConnection.class);
+        System.out.println(reference2);
+
+//        MyConnection reference2 = context.getBean(MyConnection.class);
+//        System.out.println(reference2);
+
 
 
 //        SpringBean bean = context.getBean(SpringBean.class);
