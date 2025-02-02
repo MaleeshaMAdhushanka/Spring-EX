@@ -15,8 +15,29 @@ public class AppInitializer {
         context.register(AppConfig.class);
         context.refresh();
 
-        TestBean1 testBean1 = context.getBean(TestBean1.class);
-        System.out.println(testBean1);
+        //siglotion application context ekata wtena obeject eka
+        TestBean1 ref1 = context.getBean("testBean1", TestBean1.class);
+
+        TestBean1 ref2 = context.getBean("testBean1", TestBean1.class);
+
+        System.out.println(ref1);
+        System.out.println(ref2);
+
+        TestBean2 ref3 = context.getBean("testBean2", TestBean2.class);
+        TestBean2 ref4 = context.getBean("testBean2", TestBean2.class);
+
+        System.out.println(ref3);
+        System.out.println(ref4);
+
+
+        MyConnection ref5 = context.getBean("connection", MyConnection.class);
+        MyConnection ref6 = context.getBean("connection", MyConnection.class);
+
+        System.out.println(ref5);
+        System.out.println(ref6);
+
+//        TestBean1 testBean1 = context.getBean(TestBean1.class);
+//        System.out.println(testBean1);
 
 //        TestBean2 testBean2 = (TestBean2) context.getBean("testBean2");
 //        System.out.println(testBean2);
@@ -28,17 +49,17 @@ public class AppInitializer {
 //        TestBean2 testBean2 = context.getBean("bean2",TestBean2.class);
 //        System.out.println(testBean2);
         //bean eke componet ekata nama dila
-        TestBean2 testBean2 = context.getBean("testBean2", TestBean2.class);
-        System.out.println(testBean2);
-
-        MyConnection myConnection = context.getBean(MyConnection.class);
-        System.out.println(myConnection);
-
-       MyConnection reference1 = context.getBean(MyConnection.class);
-        System.out.println(reference1);
-
-        MyConnection reference2 = context.getBean(MyConnection.class);
-        System.out.println(reference2);
+//        TestBean2 testBean2 = context.getBean("testBean2", TestBean2.class);
+//        System.out.println(testBean2);
+//
+//        MyConnection myConnection = context.getBean(MyConnection.class);
+//        System.out.println(myConnection);
+//
+//       MyConnection reference1 = context.getBean(MyConnection.class);
+//        System.out.println(reference1);
+//
+//        MyConnection reference2 = context.getBean(MyConnection.class);
+//        System.out.println(reference2);
 
 //        MyConnection reference2 = context.getBean(MyConnection.class);
 //        System.out.println(reference2);

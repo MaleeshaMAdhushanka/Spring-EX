@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/bean/MyConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/bean/SpringBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/bean/SpringBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/AppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/bean/SpringBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/bean/SpringBean.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738480373757</updated>
-      <workItem from="1738480374972" duration="5627000" />
+      <workItem from="1738480374972" duration="6564000" />
     </task>
     <servers />
   </component>
@@ -126,7 +128,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/config/AppConfig.java</url>
-          <line>9</line>
+          <line>7</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
