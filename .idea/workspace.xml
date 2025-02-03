@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/bean/MyConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/bean/SpringBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/bean/SpringBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/bean/SpringBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/AppInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/bean/SpringBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/01_Spring_core/target/classes/lk/ecommerce/bean/SpringBean.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,21 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MaleeshaMAdhushanka"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaleeshaMAdhushanka&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MaleeshaMAdhushanka/Spring-EX.git",
-    "accountId": "4cdd760d-2b60-48d1-8fa2-e13a1807f79b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaleeshaMAdhushanka/Spring-EX.git&quot;,
+    &quot;accountId&quot;: &quot;4cdd760d-2b60-48d1-8fa2-e13a1807f79b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2sTX7dLXGS1H8P3nioLVZ8C7xxA" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,7 +54,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AppInitializer.executor": "Run",
+    "Application.AppInitializer2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "01__Spring__core",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -60,11 +64,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/java/Spring-Test/01_Spring_core/src/main/java/lk/ecommerce/Main.java",
+    "onboarding.tips.debug.path": "C:/java/Spring-Test/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AppInitializer2">
     <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer" />
       <module name="01_Spring_core" />
@@ -78,8 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppInitializer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer2" />
+      <module name="02_Spring_Bean_life_Cycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppInitializer2" />
         <item itemvalue="Application.AppInitializer" />
       </list>
     </recent_temporary>
@@ -100,7 +118,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738480373757</updated>
-      <workItem from="1738480374972" duration="6564000" />
+      <workItem from="1738480374972" duration="10285000" />
+      <workItem from="1738582087419" duration="441000" />
+      <workItem from="1738582556433" duration="4302000" />
     </task>
     <servers />
   </component>
@@ -130,6 +150,11 @@
           <url>file://$PROJECT_DIR$/01_Spring_core/src/main/java/lk/ecommerce/config/AppConfig.java</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/AppInitializer2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
