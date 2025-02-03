@@ -12,6 +12,8 @@ public class Boy {
     @Qualifier("girl1")
     @Autowired
     Agreement girl;
+    //Object eka mekata initialize wela nh
+//    ethalota e part eka kare Autowired annotation eka
     public Boy(){
         System.out.println("Boy Constructor");
     }
