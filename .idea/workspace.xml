@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/03_Spring_DI/src/main/java/lk/ecommerce/di/DI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Spring_DI/src/main/java/lk/ecommerce/di/DIInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Spring_DI/src/main/java/lk/ecommerce/di/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Spring_DI/src/main/java/lk/ecommerce/di/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_FullMode_VS_LightMode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_FullMode_VS_LightMode/src/main/java/lk/ecommerce/bean/SpringBeanOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_FullMode_VS_LightMode/src/main/java/lk/ecommerce/bean/SpringBeanThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_FullMode_VS_LightMode/src/main/java/lk/ecommerce/bean/SpringBeanTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_FullMode_VS_LightMode/src/main/java/lk/ecommerce/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Spring_DI/src/main/java/lk/ecommerce/AppInitializer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring_DI/src/main/java/lk/ecommerce/AppInitializer3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Spring_DI/src/main/java/lk/ecommerce/Config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring_DI/src/main/java/lk/ecommerce/Config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Spring_DI/src/main/java/lk/ecommerce/bean/Boy.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring_DI/src/main/java/lk/ecommerce/bean/Boy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Spring_DI/target/classes/lk/ecommerce/AppInitializer3.class" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring_DI/target/classes/lk/ecommerce/AppInitializer3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Spring_DI/target/classes/lk/ecommerce/Config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring_DI/target/classes/lk/ecommerce/Config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Spring_DI/target/classes/lk/ecommerce/bean/Boy.class" beforeDir="false" afterPath="$PROJECT_DIR$/03_Spring_DI/target/classes/lk/ecommerce/bean/Boy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,6 +58,7 @@
     "Application.AppInitializer.executor": "Run",
     "Application.AppInitializer2.executor": "Run",
     "Application.AppInitializer3.executor": "Run",
+    "Application.AppInitializer4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "03__Spring-DI",
@@ -70,11 +68,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/java/Spring-Test/03_Spring_DI/src/main/java/lk/ecommerce/Main.java",
+    "onboarding.tips.debug.path": "C:/java/Spring-Test/04_FullMode_VS_LightMode/src/main/java/lk/ecommerce/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AppInitializer3">
+  <component name="RunManager" selected="Application.AppInitializer4">
     <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer" />
       <module name="01_Spring_core" />
@@ -114,8 +112,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppInitializer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer4" />
+      <module name="04_FullMode_VS_LightMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppInitializer4" />
         <item itemvalue="Application.AppInitializer3" />
         <item itemvalue="Application.AppInitializer2" />
         <item itemvalue="Application.AppInitializer" />
@@ -140,7 +152,8 @@
       <updated>1738480373757</updated>
       <workItem from="1738480374972" duration="10285000" />
       <workItem from="1738582087419" duration="441000" />
-      <workItem from="1738582556433" duration="10861000" />
+      <workItem from="1738582556433" duration="11940000" />
+      <workItem from="1738659403877" duration="3211000" />
     </task>
     <servers />
   </component>
