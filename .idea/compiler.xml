@@ -9,6 +9,7 @@
         <module name="04_FullMode_VS_LightMode" />
         <module name="05_Configuration" />
         <module name="02_Spring_Bean_life_Cycle" />
+        <module name="06_Runtime_Value_Injection" />
         <module name="01_Spring_core" />
         <module name="03_Spring_DI" />
       </profile>
