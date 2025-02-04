@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/06_Runtime_Value_Injection/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_Runtime_Value_Injection/src/main/java/lk/ecommerce/bean/SpringBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_Runtime_Value_Injection/src/main/java/lk/ecommerce/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_Spring_Enviroment/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_Spring_Enviroment/src/main/java/lk/ecommerce/bean/SpringBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_Spring_Enviroment/src/main/java/lk/ecommerce/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_Spring_Enviroment/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -21,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -59,36 +61,24 @@
     "Application.AppInitializer4.executor": "Run",
     "Application.AppInitializer5.executor": "Run",
     "Application.AppInitializer6.executor": "Run",
+    "Application.AppInitializer8.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "05__Configuration",
+    "git-widget-placeholder": "06__Runtime__Value__Injection",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/java/Spring-Test/06_Runtime_Value_Injection/src/main/java/lk/ecommerce/Main.java",
+    "onboarding.tips.debug.path": "C:/java/Spring-Test/07_Spring_Enviroment/src/main/java/lk/ecommerce/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AppInitializer6">
-    <configuration name="AppInitializer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer2" />
-      <module name="02_Spring_Bean_life_Cycle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lk.ecommerce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.AppInitializer8">
     <configuration name="AppInitializer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer3" />
       <module name="03_Spring_DI" />
@@ -141,13 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppInitializer8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer8" />
+      <module name="07_Spring_Enviroment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppInitializer8" />
         <item itemvalue="Application.AppInitializer6" />
         <item itemvalue="Application.AppInitializer5" />
         <item itemvalue="Application.AppInitializer4" />
         <item itemvalue="Application.AppInitializer3" />
-        <item itemvalue="Application.AppInitializer2" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +173,7 @@
       <workItem from="1738480374972" duration="10285000" />
       <workItem from="1738582087419" duration="441000" />
       <workItem from="1738582556433" duration="11940000" />
-      <workItem from="1738659403877" duration="7577000" />
+      <workItem from="1738659403877" duration="9537000" />
     </task>
     <servers />
   </component>
@@ -220,6 +223,11 @@
           <url>file://$PROJECT_DIR$/06_Runtime_Value_Injection/src/main/java/lk/ecommerce/AppInitializer6.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/07_Spring_Enviroment/src/main/java/lk/ecommerce/AppInitializer8.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
