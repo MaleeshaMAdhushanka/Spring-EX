@@ -10,11 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/09_Rest_Controller/src/main/java/lk/ecommerce/controller/JsonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Rest_Controller/src/main/java/lk/ecommerce/controller/PathVariableController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_Rest_Controller/src/main/java/lk/ecommerce/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_Rest_Controller/src/main/java/lk/ecommerce/dto/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_Rest_Controller/target/classes/lk/ecommerce/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/09_Rest_Controller/target/classes/lk/ecommerce/dto/CustomerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/09_Rest_Controller_Web_exploded/WEB-INF/classes/lk/ecommerce/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/09_Rest_Controller_Web_exploded/WEB-INF/classes/lk/ecommerce/dto/CustomerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Rest_Controller/target/classes/lk/ecommerce/controller/JsonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/09_Rest_Controller/target/classes/lk/ecommerce/controller/JsonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Rest_Controller/target/classes/lk/ecommerce/dto/CustomerResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/09_Rest_Controller_Web_exploded/WEB-INF/classes/lk/ecommerce/controller/JsonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/09_Rest_Controller_Web_exploded/WEB-INF/classes/lk/ecommerce/controller/JsonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/09_Rest_Controller_Web_exploded/WEB-INF/classes/lk/ecommerce/dto/CustomerResponseDTO.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +295,7 @@
       <workItem from="1738725095380" duration="877000" />
       <workItem from="1738850228621" duration="826000" />
       <workItem from="1738851195920" duration="7620000" />
-      <workItem from="1739028769308" duration="2337000" />
+      <workItem from="1739028769308" duration="4928000" />
     </task>
     <servers />
   </component>
