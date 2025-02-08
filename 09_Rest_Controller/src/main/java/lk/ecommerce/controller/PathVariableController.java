@@ -24,6 +24,7 @@ public class PathVariableController {
         return id;
     }
 
+//    http://localhost:8080/09_Rest_Controller_Web_exploded/variable/c12/Kathum
     @GetMapping(path = "{customerId}/{customerName}")
     public String variable3(@PathVariable("customerId") String id,
                             @PathVariable("customerName") String name){
