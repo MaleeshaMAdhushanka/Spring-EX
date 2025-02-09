@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="09_Rest_Controller" />
         <module name="08_Spring_Web_MVC" />
+        <module name="10_Back_End" />
         <module name="04_FullMode_VS_LightMode" />
         <module name="05_Configuration" />
         <module name="02_Spring_Bean_life_Cycle" />
