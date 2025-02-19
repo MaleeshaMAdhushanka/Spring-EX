@@ -10,18 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/10_Back_End/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Back_End/src/main/java/lk/ecommerce/config/WebAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Back_End/src/main/java/lk/ecommerce/config/WebRootConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Back_End/src/main/java/lk/ecommerce/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Back_End/src/main/java/lk/ecommerce/dto/CustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_Back_End/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/09_Rest_Controller_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/10_Back_End_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_Rest_Controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/10_Back_End.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Front_End/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +22,8 @@
       <list>
         <option value="Interface" />
         <option value="package-info" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,7 +74,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.33.executor": "Run",
-    "git-widget-placeholder": "09__Rest__Controller",
+    "git-widget-placeholder": "11__Font__end",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -302,7 +291,10 @@
       <workItem from="1738850228621" duration="826000" />
       <workItem from="1738851195920" duration="7620000" />
       <workItem from="1739028769308" duration="9028000" />
-      <workItem from="1739122665427" duration="6363000" />
+      <workItem from="1739122665427" duration="7478000" />
+      <workItem from="1739172436873" duration="639000" />
+      <workItem from="1739204620279" duration="580000" />
+      <workItem from="1739939429146" duration="4110000" />
     </task>
     <servers />
   </component>
