@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="10_Back_End:Web exploded" />
+      <artifact name="12_Spring_Data_JPA:Web exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,7 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/11_Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_Front_End/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/12_Spring_Data_JPA_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Back_End/web/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Spring_Data_JPA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Spring_Data_JPA/src/main/java/lk/ecommerce/config/JPAConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Spring_Data_JPA/src/main/java/lk/ecommerce/config/WebAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Spring_Data_JPA/src/main/java/lk/ecommerce/config/WebRootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Spring_Data_JPA/src/main/java/lk/ecommerce/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Spring_Data_JPA/src/main/java/lk/ecommerce/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Spring_Data_JPA/src/main/java/lk/ecommerce/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Spring_Data_JPA/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_Spring_Data_JPA/web2/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/10_Back_End_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Back_End.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12_Spring_Data_JPA.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +37,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="package-info" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,11 +98,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/java/Spring-Test/10_Back_End/src/main/java/lk/ecommerce/Main.java",
+    "onboarding.tips.debug.path": "C:/java/Spring-Test/12_Spring_Data_JPA/src/main/java/lk/ecommerce/Main.java",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.13964844",
     "project.structure.side.proportion": "0.17323557",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -165,14 +187,14 @@
     <configuration name="Tomcat 10.1.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.33" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="10_Back_End:Web exploded">
+        <artifact name="12_Spring_Data_JPA:Web exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/10_Back_End_Web_exploded" />
+            <option name="CONTEXT_PATH" value="/12_Spring_Data_JPA_Web_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="4df8c180-6189-4f43-9e34-57f4021f2867" />
+        <option name="BASE_DIRECTORY_NAME" value="ef2422ef-31df-4563-abd7-0e5f4bca0c46" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -180,7 +202,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53706" />
+        <option name="DEBUG_PORT" value="63476" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -245,7 +267,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="10_Back_End:Web exploded" />
+          <artifact name="12_Spring_Data_JPA:Web exploded" />
         </option>
       </method>
     </configuration>
@@ -294,7 +316,8 @@
       <workItem from="1739122665427" duration="7478000" />
       <workItem from="1739172436873" duration="639000" />
       <workItem from="1739204620279" duration="580000" />
-      <workItem from="1739939429146" duration="4110000" />
+      <workItem from="1739939429146" duration="5370000" />
+      <workItem from="1739955825926" duration="4130000" />
     </task>
     <servers />
   </component>
@@ -359,6 +382,11 @@
           <url>file://$PROJECT_DIR$/10_Back_End/src/main/java/lk/ecommerce/WebAppInitializer10.java</url>
           <line>13</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/12_Spring_Data_JPA/src/main/java/lk/ecommerce/WebAppInitializer12.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
