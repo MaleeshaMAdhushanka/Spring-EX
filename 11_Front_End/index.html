@@ -81,14 +81,32 @@
     }
     
     function updateCustomer() {
-        
+        const  customer = {
+            id: $('#customerId').val(),
+            name: $('#customerName').val(),
+            address: $('#customerAddress').val(),
+            age:  $('#customerAge').val()
+        };
     }
     
     
     function deleteCustomer() {
-        
+        const customerId = $('#customerId').val();
+
+        $.ajax({
+           url : `http://localhost:8080/10_Back_End_Web_exploded/api/v1/customer/delete/${customerId}`,
+            type: 'DELETE',
+            success: function (response) {
+                alert('Customer deleted successfully');
+                clearFields();
+                refreshTable();
+            },
+            error: function (error) {
+                console.log('Error deleting customer:', error);
+            }
+        });
     }
-    
+
     function refreshTable() {
         $.ajax({
             url: 'http://localhost:8080/10_Back_End_Web_exploded/api/v1/customer/getAll',
