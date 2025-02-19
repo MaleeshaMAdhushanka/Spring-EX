@@ -87,6 +87,21 @@
             address: $('#customerAddress').val(),
             age:  $('#customerAge').val()
         };
+
+        $.ajax({
+            url: 'http://localhost:8080/10_Back_End_Web_exploded/api/v1/customer/update',
+            type: 'PUT',
+            contentType: 'application/json',
+            data: JSON.stringify(customer),
+            success: function (response) {
+                alert('Customer updated successfully');
+                clearFields();
+                refreshTable();
+            },
+            error: function (error) {
+                console.log('Error updating customer:', error);
+            }
+        });
     }
     
     
