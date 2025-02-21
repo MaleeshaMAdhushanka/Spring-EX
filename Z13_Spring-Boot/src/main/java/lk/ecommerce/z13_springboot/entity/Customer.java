@@ -13,13 +13,15 @@ public class Customer {
 
     private  String address;
 
-    public Customer() {
-    }
+    private int age;
 
-    public Customer(int id, String name, String address) {
+    public Customer(){}
+
+    public Customer(int id, String name, String address, int age) {
         this.id = id;
         this.name = name;
         this.address = address;
+        this.age = age;
     }
 
     public int getId() {
@@ -44,5 +46,13 @@ public class Customer {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }

@@ -19,14 +19,14 @@ public class CustomerService {
 
 
     public boolean save(CustomerDTO customerDTO){
-        Customer customer = new Customer(customerDTO.getId(), customerDTO.getName(), customerDTO.getAddress());
+        Customer customer = new Customer(customerDTO.getId(), customerDTO.getName(), customerDTO.getAddress(), customerDTO.getAge());
         customerRepo.save(customer);
         return true;
     }
 
     public List<CustomerDTO> getAll(){
         return customerRepo.findAll().stream()
-                .map(customer -> new CustomerDTO(customer.getId(), customer.getName(), customer.getAddress()))
+                .map(customer -> new CustomerDTO(customer.getId(), customer.getName(), customer.getAddress(), customer.getAge()))
                 .collect(Collectors.toList());
 
     }
@@ -34,7 +34,7 @@ public class CustomerService {
     public boolean update(CustomerDTO customerDTO){
 
         if (customerRepo.existsById(customerDTO.getId())) {
-            Customer customer = new Customer(customerDTO.getId(), customerDTO.getName(), customerDTO.getAddress());
+            Customer customer = new Customer(customerDTO.getId(), customerDTO.getName(), customerDTO.getAddress(), customerDTO.getAge());
             customerRepo.save(customer);
             return true;
         } else {
