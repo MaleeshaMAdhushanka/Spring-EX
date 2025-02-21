@@ -34,8 +34,8 @@ public class CustomerController {
        return customerService.update(customerDTO);
     }
 
-    @DeleteMapping(path = "delete")
-    public boolean deleteCustomer(@RequestParam int id){
+    @DeleteMapping(path = "delete/{id}")
+    public boolean deleteCustomer(@PathVariable int id){
         return customerService.delete(id);
     }
 
