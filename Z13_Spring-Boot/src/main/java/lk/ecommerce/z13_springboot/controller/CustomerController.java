@@ -2,12 +2,9 @@ package lk.ecommerce.z13_springboot.controller;
 
 
 import lk.ecommerce.z13_springboot.dto.CustomerDTO;
-import lk.ecommerce.z13_springboot.service.impl.CustomerServiceImpl;
 import lk.ecommerce.z13_springboot.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @CrossOrigin(origins = "http://localhost:63342")
 @RestController
