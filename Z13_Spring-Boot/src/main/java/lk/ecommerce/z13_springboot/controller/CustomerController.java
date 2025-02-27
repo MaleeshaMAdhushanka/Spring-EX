@@ -2,7 +2,8 @@ package lk.ecommerce.z13_springboot.controller;
 
 
 import lk.ecommerce.z13_springboot.dto.CustomerDTO;
-import lk.ecommerce.z13_springboot.service.CustomerService;
+import lk.ecommerce.z13_springboot.service.impl.CustomerServiceImpl;
+import lk.ecommerce.z13_springboot.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,29 +15,35 @@ import java.util.List;
 public class CustomerController {
 
     @Autowired
-    private CustomerService customerService;
+    private CustomerServiceImpl customerService;
 
     @PostMapping(path = "save")
-    public boolean getCustomer(@RequestBody CustomerDTO customerDTO){
-      boolean res =  customerService.save(customerDTO);
+    public ResponseUtil getCustomer(@RequestBody CustomerDTO customerDTO){
+        customerService.save(customerDTO);
         System.out.println(customerDTO.getName());
-        return res;
+        return new ResponseUtil(201, "Customer is saved", null);
     }
 
     @GetMapping(path = "getAll")
-    public List<CustomerDTO> getAllCustomer(){
-        return customerService.getAll();
+    public ResponseUtil getAllCustomer(){
+
+        return new ResponseUtil(
+            200,
+            "Customer List",
+                customerService.getAll());
     }
 
 
     @PutMapping(path = "update")
-    public boolean updateCustomer(@RequestBody CustomerDTO customerDTO){
-       return customerService.update(customerDTO);
+    public ResponseUtil updateCustomer(@RequestBody CustomerDTO customerDTO){
+        customerService.update(customerDTO);
+        return  new ResponseUtil(200, "Customer update", null);
     }
 
     @DeleteMapping(path = "delete/{id}")
-    public boolean deleteCustomer(@PathVariable int id){
-        return customerService.delete(id);
+    public ResponseUtil deleteCustomer(@PathVariable int id){
+         customerService.delete(id);
+         return new ResponseUtil(200, "Customer deleted", null);
     }
 
 
