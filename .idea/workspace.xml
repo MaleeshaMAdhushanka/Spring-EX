@@ -10,17 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/dto/CustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/repo/CustomerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Fornt_End/Item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Fornt_End/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Fornt_End/placeOrder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/advisor/AppWideExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/config/webAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/dto/ItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/dto/OrderDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/entity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/repo/ItemRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/repo/OrderRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/OrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/util/ResponseUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c7f85ed-7a9c-4c4b-a27b-97add929ca60.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4c7f85ed-7a9c-4c4b-a27b-97add929ca60.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Fornt_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/14_Fornt_End/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Z13_Spring-Boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Z13_Spring-Boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +78,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -82,15 +104,16 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "580",
-    "RequestMappingsPanelWidth1": "580",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Z13SpringBootApplication.executor": "Run",
     "Tomcat Server.Tomcat 10.1.33.executor": "Run",
-    "git-widget-placeholder": "12__SpringDataJPA",
+    "git-widget-placeholder": "14__Fornt__end",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/java/Spring-Test/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/repo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,14 +135,53 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lk.ecommerce.dto" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java\Spring-Test\Z13_Spring-Boot\src\main\java\lk\ecommerce\z13_springboot\repo" />
+      <recent name="C:\java\Spring-Test\Z13_Spring-Boot\src\main\java\lk\ecommerce\z13_springboot\entity" />
+      <recent name="C:\java\Spring-Test\Z13_Spring-Boot\src\main\java\lk\ecommerce\z13_springboot\dto" />
+      <recent name="C:\java\Spring-Test\14_Fornt_End" />
+      <recent name="C:\java\Spring-Test\Z13_Spring-Boot\src\main\java\lk\ecommerce\z13_springboot\service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\java\Spring-Test\14_Fornt_End" />
       <recent name="C:\java\Spring-Test\08_Spring_Web_MVC\web\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ecommerce.z13_springboot.service" />
+      <recent name="lk.ecommerce.z13_springboot.service.impl" />
+      <recent name="lk.ecommerce.z13_springboot.controller" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Z13SpringBootApplication">
     <configuration name="AppInitializer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer3" />
       <module name="03_Spring_DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer3" />
+      <module name="03_Spring_DI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer4" />
+      <module name="04_FullMode_VS_LightMode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lk.ecommerce.*" />
@@ -156,9 +218,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppInitializer5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer5" />
+      <module name="05_Configuration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppInitializer6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer6" />
       <module name="06_Runtime_Value_Injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer6" />
+      <module name="06_Runtime_Value_Injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ecommerce.AppInitializer8" />
+      <module name="07_Spring_Enviroment" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lk.ecommerce.*" />
@@ -187,6 +288,100 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ecommerce.z13_springboot.Z13SpringBootApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z13SpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Z13_Spring-Boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ecommerce.z13_springboot.Z13SpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.33" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="12_Spring_Data_JPA:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/12_Spring_Data_JPA_Web_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ef2422ef-31df-4563-abd7-0e5f4bca0c46" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63476" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="12_Spring_Data_JPA:Web exploded" />
+        </option>
       </method>
     </configuration>
     <configuration name="Tomcat 10.1.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.33" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -323,7 +518,11 @@
       <workItem from="1739172436873" duration="639000" />
       <workItem from="1739204620279" duration="580000" />
       <workItem from="1739939429146" duration="5370000" />
-      <workItem from="1739955825926" duration="9611000" />
+      <workItem from="1739955825926" duration="10404000" />
+      <workItem from="1740074228534" duration="318000" />
+      <workItem from="1740110873314" duration="9771000" />
+      <workItem from="1740453016976" duration="26772000" />
+      <workItem from="1740538181626" duration="5114000" />
     </task>
     <servers />
   </component>
@@ -393,6 +592,12 @@
           <url>file://$PROJECT_DIR$/12_Spring_Data_JPA/src/main/java/lk/ecommerce/WebAppInitializer12.java</url>
           <line>13</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/entity/Customer.java</url>
+          <line>11</line>
+          <properties field="name" class="lk.ecommerce.z13_springboot.entity.Customer" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
