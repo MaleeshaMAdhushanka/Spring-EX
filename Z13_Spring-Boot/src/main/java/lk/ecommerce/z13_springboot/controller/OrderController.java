@@ -1,7 +1,6 @@
 package lk.ecommerce.z13_springboot.controller;
 
 import lk.ecommerce.z13_springboot.dto.OrderDTO;
-import lk.ecommerce.z13_springboot.service.OrderService;
 import lk.ecommerce.z13_springboot.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
