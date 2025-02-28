@@ -1,29 +1,30 @@
 package lk.ecommerce.z13_springboot.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
 public class CustomerDTO {
 
-    private int id;
-
+    private String id;
     private String name;
-
     private String address;
 
-    private int age;
+    public CustomerDTO() {}
 
-  public CustomerDTO(){}
 
-    public CustomerDTO(int id, String name, String address, int age) {
+    public CustomerDTO(String id, String name, String address) {
         this.id = id;
         this.name = name;
         this.address = address;
-        this.age = age;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -41,13 +42,5 @@ public class CustomerDTO {
 
     public void setAddress(String address) {
         this.address = address;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 }
