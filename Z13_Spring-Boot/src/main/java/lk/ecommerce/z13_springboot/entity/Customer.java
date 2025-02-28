@@ -2,33 +2,32 @@ package lk.ecommerce.z13_springboot.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 
 @Entity
 public class Customer {
 
     @Id
-    private int id;
-
+    private String id;
     private String name;
+    private String address;
 
-    private  String address;
+    public Customer() {}
 
-    private int age;
-
-    public Customer(){}
-
-    public Customer(int id, String name, String address, int age) {
+    public Customer(String id, String name, String address) {
         this.id = id;
         this.name = name;
         this.address = address;
-        this.age = age;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -46,13 +45,5 @@ public class Customer {
 
     public void setAddress(String address) {
         this.address = address;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 }

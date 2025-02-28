@@ -1,39 +1,38 @@
+// Tooltip
 const tooltipTriggerList = document.querySelectorAll(
     '[data-bs-toggle="tooltip"]'
 );
-
 const tooltipList = [...tooltipTriggerList].map(
     (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
 );
+
 const BASE_URL = "http://localhost:8080/api/v1/customer";
 
 $(document).ready(function () {
-   loadCustomer();
-   generateCustomerId();
+    loadCustomers();
+    generateCustomerId();
 
-   $("#customerForm").on("submit", function (e) {
-       e.preventDefault();
-       saveCustomer();
-   });
+    $("#customerForm").on("submit", function (e) {
+        e.preventDefault();
+        saveCustomer();
+    });
 
     $("#editForm").on("submit", function (e) {
-         e.preventDefault();
-         updateCustomer();
+        e.preventDefault();
+        updateCustomer();
     });
 });
 
-
-
 function generateCustomerId() {
-  const  lastRow = $("#customerTable tr:last");
-  //using strict equality operator
-  if (lastRow.length === 0){
-      $("#id").val("C-001");
-        return;
-  }
+    const lastRow = $("#customerTable tr:last");
 
-  const lastId = lastRow.find("td:eq(0)").text().trim();
-  const num = parseInt(lastId.replace("C-", "")) + 1;
+    if (lastRow.length === 0) {
+        $("#id").val("C-001");
+        return;
+    }
+
+    const lastId = lastRow.find("td:eq(0)").text().trim(); // Get the last ID from the table
+    const num = parseInt(lastId.replace("C-", "")) + 1;
     $("#id").val(`C-${String(num).padStart(3, "0")}`);
 }
 
@@ -43,7 +42,8 @@ function saveCustomer() {
         name: $("#name").val(),
         address: $("#address").val(),
     };
-    if (!validateCustomerData(customerData)){
+
+    if (!validateCustomerData(customerData)) {
         return;
     }
 
@@ -52,54 +52,59 @@ function saveCustomer() {
         method: "POST",
         contentType: "application/json",
         data: JSON.stringify(customerData),
-         success: function (response) {
-             showAlert("success", response.message);
-             resetForm();
-             loadCustomers();
-         },
+        success: function (response) {
+            showAlert("success", response.message);
+            resetForm();
+            loadCustomers();
+        },
         error: function (xhr) {
-            let errorMsg = "Error Saving Customer";
-            if (xhr.responseJSON && xhr.responseJSON.message){
+            let errorMsg = "Error saving customer";
+            if (xhr.responseJSON && xhr.responseJSON.message) {
                 errorMsg = xhr.responseJSON.message;
             }
             showAlert("error", errorMsg);
         },
     });
-    
 }
+
 function loadCustomers() {
     $.ajax({
         url: `${BASE_URL}/getAll`,
         method: "GET",
         contentType: "application/json",
         success: function (response) {
-            if (response.status && response.data) {
+            console.log("AJAX Response:", response); // Log the entire response
+            if (response.code === 200 && response.data) { // Check for response.code
                 const tableBody = $("#customerTable");
                 tableBody.empty();
 
                 response.data.forEach(function (customer) {
+                    console.log("Customer Data:", customer); // Log each customer object
                     tableBody.append(`
-                            <tr>
-                                <td>${customer.id}</td>
-                                <td>${customer.name}</td>
-                                <td>${customer.address}</td>
-                                <td>
-                                    <button class="btn btn-action btn-edit me-2" data-customer-id="${customer.id}">
-                                        <i class="hgi-stroke hgi-pencil-edit-02 fs-5"></i>
-                                    </button>
-                                    <button class="btn btn-action btn-delete" data-customer-id="${customer.id}">
-                                        <i class="hgi-stroke hgi-delete-02 fs-5"></i>
-                                    </button>
-                                </td>
-                            </tr>
-                        `);
+                        <tr>
+                            <td>${customer.id}</td>
+                            <td>${customer.name}</td>
+                            <td>${customer.address}</td>
+                            <td>
+                                <button class="btn btn-action btn-edit me-2" data-customer-id="${customer.id}">
+                                    <i class="hgi-stroke hgi-pencil-edit-02 fs-5"></i>
+                                </button>
+                                <button class="btn btn-action btn-delete" data-customer-id="${customer.id}">
+                                    <i class="hgi-stroke hgi-delete-02 fs-5"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    `);
                 });
 
                 generateCustomerId();
                 attachButtonHandlers();
+            } else {
+                console.error("Unexpected response structure:", response);
             }
         },
         error: function (xhr) {
+            console.error("AJAX Error:", xhr); // Log the error response
             let errorMsg = "Error loading customers";
             if (xhr.responseJSON && xhr.responseJSON.message) {
                 errorMsg = xhr.responseJSON.message;
@@ -109,6 +114,54 @@ function loadCustomers() {
     });
 }
 
+
+// function loadCustomers() {
+//     $.ajax({
+//         url: `${BASE_URL}/getAll`,
+//         method: "GET",
+//         contentType: "application/json",
+//         success: function (response) {
+//             console.log("AJAX Response", response)
+//             if (response.status && response.data) {
+//                 const tableBody = $("#customerTable");
+//                 tableBody.empty();
+//
+//                 response.data.forEach(function (customer) {
+//                     console.log("Customer Data :",customer);
+//                     tableBody.append(`
+//                             <tr>
+//                                 <td>${customer.id}</td>
+//                                 <td>${customer.name}</td>
+//                                 <td>${customer.address}</td>
+//
+//                                 <td>
+//                                     <button class="btn btn-action btn-edit me-2" data-customer-id="${customer.id}">
+//                                         <i class="hgi-stroke hgi-pencil-edit-02 fs-5"></i>
+//                                     </button>
+//                                     <button class="btn btn-action btn-delete" data-customer-id="${customer.id}">
+//                                         <i class="hgi-stroke hgi-delete-02 fs-5"></i>
+//                                     </button>
+//                                 </td>
+//                             </tr>
+//                         `);
+//                 });
+//
+//                 generateCustomerId();
+//                 attachButtonHandlers();
+//             } else {
+//                 console.error("Unexpected response", response);
+//             }
+//         },
+//         error: function (xhr) {
+//             console.error("AJAX Error", xhr);
+//             let errorMsg = "Error loading customers";
+//             if (xhr.responseJSON && xhr.responseJSON.message) {
+//                 errorMsg = xhr.responseJSON.message;
+//             }
+//             showAlert("error", errorMsg);
+//         },
+//     });
+// }
 
 function attachButtonHandlers() {
     $(".btn-edit").click(function () {
@@ -122,21 +175,28 @@ function attachButtonHandlers() {
         $("#deleteConfirmModal").modal("show");
     });
 }
+
 function editCustomer(id) {
+    console.log("Editing customer with ID:", id); // Log the ID being edited
     $.ajax({
-        url: `${BASE_URL}/getAll`,
+        url: `${BASE_URL}/getAll`, // Use backticks for the template literal
         method: "GET",
         contentType: "application/json",
         success: function (response) {
-            if (response.status && response.data) {
+            console.log("Response from getAll:", response);
+            // Check for response.code instead of response.status
+            if (response.code === 200 && response.data) {
                 const customer = response.data.find((c) => c.id === id);
                 if (customer) {
                     $("#editId").val(customer.id);
                     $("#editName").val(customer.name);
                     $("#editAddress").val(customer.address);
-
                     new bootstrap.Modal("#editModal").show();
+                } else {
+                    console.error("Customer not found:", id);
                 }
+            } else {
+                console.error("Unexpected response structure:", response);
             }
         },
         error: function (xhr) {
@@ -148,6 +208,8 @@ function editCustomer(id) {
         },
     });
 }
+
+
 
 function updateCustomer() {
     const customerData = {
@@ -228,9 +290,8 @@ function validateCustomerData(data) {
 }
 
 function resetForm() {
-    $("#customerForm")[0].rest();
+    $("#customerForm")[0].reset();
 }
-
 
 function showAlert(type, message) {
     const alertClass = type === "success" ? "bg-success" : "bg-danger";
@@ -245,6 +306,5 @@ function showAlert(type, message) {
 
     setTimeout(() => {
         $(".alert").alert("close");
-    }, 4000);
+    }, 3000);
 }
-
