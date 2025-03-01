@@ -16,11 +16,6 @@ $(document).ready(function () {
     e.preventDefault();
     saveItem();
   });
-
-  $("#editForm").on("submit", function (e) {
-    e.preventDefault();
-    updateItem();
-  });
 });
 
 function generateItemId() {
@@ -74,35 +69,34 @@ function loadItems() {
     method: "GET",
     contentType: "application/json",
     success: function (response) {
-      if (response.status && response.data) {
+      console.log("AJAX Response:", response); // Log the entire response
+      if (response.code === 200 && response.data) {
         const tableBody = $("#itemTable");
         tableBody.empty();
 
         response.data.forEach(function (item) {
           tableBody.append(`
-                            <tr>
-                                <td>${item.itemCode}</td>
-                                <td>${item.description}</td>
-                                <td>${item.unitPrice.toFixed(2)}</td>
-                                <td>${item.qtyOnHand}</td>
-                                <td>
-                                    <button class="btn btn-action btn-edit me-2" data-item-code="${
-                                      item.itemCode
-                                    }">
-                                        <i class="hgi-stroke hgi-pencil-edit-02 fs-5"></i>
-                                    </button>
-                                    <button class="btn btn-action btn-delete" data-item-code="${
-                                      item.itemCode
-                                    }">
-                                        <i class="hgi-stroke hgi-delete-02 fs-5"></i>
-                                    </button>
-                                </td>
-                            </tr>
-                        `);
+                        <tr>
+                            <td>${item.itemCode}</td>
+                            <td>${item.description}</td>
+                            <td>${item.unitPrice.toFixed(2)}</td>
+                            <td>${item.qtyOnHand}</td>
+                            <td>
+                                <button class="btn btn-action btn-edit me-2" data-item-code="${item.itemCode}">
+                                    <i class="hgi-stroke hgi-pencil-edit-02 fs-5"></i>
+                                </button>
+                                <button class="btn btn-action btn-delete" data-item-code="${item.itemCode}">
+                                    <i class="hgi-stroke hgi-delete-02 fs-5"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    `);
         });
 
         generateItemId();
         attachButtonHandlers();
+      } else {
+        console.error("Unexpected response structure:", response);
       }
     },
     error: function (xhr) {
@@ -134,7 +128,7 @@ function editItem(itemCode) {
     method: "GET",
     contentType: "application/json",
     success: function (response) {
-      if (response.status && response.data) {
+      if (response.code === 200 && response.data) {
         const item = response.data.find((i) => i.itemCode === itemCode);
         if (item) {
           $("#editItemCode").val(item.itemCode);
@@ -188,14 +182,12 @@ function updateItem() {
   });
 }
 
-// Add handler for confirm delete button
 $("#confirmDeleteBtn").click(function () {
   const itemCode = $("#deleteConfirmModal").data("item-code");
   deleteItem(itemCode);
   $("#deleteConfirmModal").modal("hide");
 });
 
-// Delete item
 function deleteItem(itemCode) {
   $.ajax({
     url: `${BASE_URL}/delete/${itemCode}`,
@@ -216,20 +208,15 @@ function deleteItem(itemCode) {
 }
 
 function validateItemData(data) {
-  if (
-    !data.itemCode ||
-    !data.description ||
-    !data.unitPrice ||
-    !data.qtyOnHand
-  ) {
+  if (!data.itemCode || !data.description || !data.unitPrice || !data.qtyOnHand) {
     showAlert("error", "Please fill in all fields");
     return false;
   }
-  if (data.price < 0) {
+  if (data.unitPrice < 0) {
     showAlert("error", "Price cannot be negative");
     return false;
   }
-  if (data.qty < 0) {
+  if (data.qtyOnHand < 0) {
     showAlert("error", "Quantity cannot be negative");
     return false;
   }
@@ -243,11 +230,11 @@ function resetForm() {
 function showAlert(type, message) {
   const alertClass = type === "success" ? "bg-success" : "bg-danger";
   const alertHtml = `
-            <div class="alert ${alertClass} text-white alert-dismissible fade show" role="alert">
-                ${message}
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-        `;
+        <div class="alert ${alertClass} text-white alert-dismissible fade show" role="alert">
+            ${message}
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    `;
 
   $("#alertContainer").append(alertHtml);
 
@@ -255,3 +242,5 @@ function showAlert(type, message) {
     $(".alert").alert("close");
   }, 3000);
 }
+
+
