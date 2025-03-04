@@ -10,29 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29589a5d-5d0d-4663-a92e-10c9feb0d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/dto/ItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/entity/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/repository/ItemRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/controller/PlaceOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/dto/OrderDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/repository/OrderDetailsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/repository/OrdersRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z13_Spring-Boot/src/main/java/lk/ecommerce/z13_springboot/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a743e31-fb61-46eb-b495-852bece2ecc4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a743e31-fb61-46eb-b495-852bece2ecc4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c7f85ed-7a9c-4c4b-a27b-97add929ca60.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c7f85ed-7a9c-4c4b-a27b-97add929ca60/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c7f85ed-7a9c-4c4b-a27b-97add929ca60/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c7f85ed-7a9c-4c4b-a27b-97add929ca60/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c7f85ed-7a9c-4c4b-a27b-97add929ca60/storage_v2/_src_/schema/springboottest.kVv-ZQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c7f85ed-7a9c-4c4b-a27b-97add929ca60/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8695c6ae-e026-452a-9a00-22695f808d78.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8695c6ae-e026-452a-9a00-22695f808d78/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8695c6ae-e026-452a-9a00-22695f808d78/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8695c6ae-e026-452a-9a00-22695f808d78/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8695c6ae-e026-452a-9a00-22695f808d78/storage_v2/_src_/schema/springt.B0ADiQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8695c6ae-e026-452a-9a00-22695f808d78/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Fornt_End/css/item.css" beforeDir="false" afterPath="$PROJECT_DIR$/14_Fornt_End/css/item.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Fornt_End/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/14_Fornt_End/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Fornt_End/js/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/14_Fornt_End/js/item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Fornt_End/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/14_Fornt_End/order.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +34,8 @@
       <list>
         <option value="package-info" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -126,6 +116,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lk.ecommerce.z13_springboot.dto" />
       <recent name="lk.ecommerce.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -519,7 +510,8 @@
       <workItem from="1740453016976" duration="26772000" />
       <workItem from="1740538181626" duration="5114000" />
       <workItem from="1740716139339" duration="12322000" />
-      <workItem from="1740807012696" duration="4543000" />
+      <workItem from="1740807012696" duration="5123000" />
+      <workItem from="1741087785620" duration="2773000" />
     </task>
     <servers />
   </component>

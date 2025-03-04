@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  background: linear-gradient(135deg, #eef5ff 0%, #aabfe1 100%);
+  background: linear-gradient(135deg, #f9f900 0%, #000000 100%);
   display: flex;
   align-items: center;
   font-family: "Roboto", sans-serif;
@@ -15,12 +15,12 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #aabfe1;
+  background: #f9f900;
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6b73ff;
+  background: #000000;
   border-radius: 6px;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .form-control:focus {
-  border-color: #6b73ff;
+  border-color: #f9f900;
   box-shadow: 0 0 0 0.25rem rgba(107, 115, 255, 0.25);
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+  background: linear-gradient(135deg, #f9f900 0%, #000000 100%);
 }
 
 .btn-danger {
@@ -118,7 +118,7 @@ body {
 }
 
 .table tbody tr:hover {
-  background-color: rgba(107, 115, 255, 0.05);
+  background-color: rgba(249, 249, 0, 0.1);
 }
 
 .btn-action {
